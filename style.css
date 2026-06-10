@@ -1,12 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
 
-@import url("container.css");
-@import url("avatar.css");
-@import url("button.css");
-@import url("banner.css");
-@import url("card.css");
-@import url("stats.css");
-@import url("sidebar.css");
+@import url("./container.css");
+@import url("./avatar.css");
+@import url("./button.css");
+@import url("./banner.css");
+@import url("./card.css");
+@import url("./stats.css");
+@import url("./sidebar.css");
 
 
 body {
