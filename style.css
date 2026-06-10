@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+
+@import url("components/container.css");
+
+@import url("components/avatar.css");
+
+@import url("components/button.css");
+
+@import url("components/banner.css");
+
+@import url("components/card.css");
+
+@import url("components/stats.css");
+
+
+
+body {
+  font-family: 'Inter', sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  color: #1a1a2e;
+  background: #ffffff;
+  line-height: 1.7;
+  margin:0px;
+}
+h1, h2, h3 {
+  font-family: 'Nunito', sans-serif;
+
+}
+h1 {
+  font-size: 50px;
+  font-weight:bold;
+}
+
+h1 span {
+  color: #FF5722;
+  font-style: normal;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight:bold;
+}
+
+h2 em {
+  color: #FF5722 !important;
+  font-style: normal;
+}
+
+h3 {
+  font-size: 23px;
+  font-weight:200;
+}
+
+a{
+  text-decoration: none;
+}
+
+.stat-num {
+  font-family: 'Nunito', sans-serif;
+}
+

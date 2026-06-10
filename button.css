@@ -1,0 +1,9 @@
+.btn-purple {
+  display: inline-block;
+  background-color: #6C47FF !important;
+  padding: 15px 20px;
+  border-radius: 4px;
+  color: white !important;
+  font-weight: bold;
+  font-family: 'Nunito', sans-serif;
+}

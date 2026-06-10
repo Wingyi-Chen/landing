@@ -1,0 +1,21 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 40px;
+  overflow-wrap: break-word;
+}
+@media (max-width: 960px) {
+  .container {
+    max-width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    max-width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    max-width: 300px;
+  }
+}
