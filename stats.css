@@ -1,27 +1,33 @@
 .stats-row {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 12px;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2.5rem 0;
 }
-
 .stat-card {
-  background: #fff;
-  border: none;
-  padding: 1.25rem;
+  flex: 1;
   text-align: center;
+  padding: 1rem;
+}
+.stat-divider {
+  width: 1px;
+  height: 60px;
+  background: #e0e0e0;
 }
 .stat-num {
   font-family: 'Nunito', sans-serif;
-  font-size: 40px;
+  font-size: 52px;
   font-weight: 800;
-  color: #534AB7;
-  line-height: 1.1;
+  color: #1a1a2e;
+  line-height: 1;
 }
-
+.stat-num span {
+  color: #ff5c1a;
+}
 .stat-lbl {
-  font-size: 20px;
-  color: #6b7280;
-  margin-top: 4px;
+  font-size: 13px;
+  color: #888;
+  margin-top: 6px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
 }
