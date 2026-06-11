@@ -27,3 +27,10 @@
   color: white;
   margin-bottom: 40px;
 }
+.banner .container {
+  background: red;
+}
+
+#features .container {
+  background: blue;
+}
